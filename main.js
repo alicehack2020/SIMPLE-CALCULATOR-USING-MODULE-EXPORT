@@ -1,0 +1,11 @@
+const express=require("express")
+const app=express()
+const add=require("./add")
+const sub=require("./sub")
+const mul=require("./mul")
+const div=require("./div")
+
+console.log(add(10,20))
+console.log(sub(10,20))
+console.log(mul(10,20))
+console.log(div(10,20))
